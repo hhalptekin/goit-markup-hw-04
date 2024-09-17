@@ -1,3 +1,4 @@
+/* GENERAL */
 h1,
 h2,
 h3,
@@ -38,9 +39,9 @@ p {
 img {
   display: block;
 }
-/*================ /genel =================*/
+/*================ /GENERAL =================*/
 
-/*================ HEADER =================*/
+/*HEADER */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -127,7 +128,7 @@ img {
   color: #404bbf;
 }
 /*================ /HEADER =================*/
-/*================ MAİN=================*/
+/* MAİN */
 /* OFFER */
 .div-offer {
   height: 600px;
@@ -173,7 +174,7 @@ img {
   margin: auto;
   margin-bottom: 48px;
 }
-/* /OFFER */
+/*================= /OFFER =================*/
 /* SKİLL */
 .div-skill {
   padding-top: 120px;
@@ -214,7 +215,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* /SKİLL */
+/*================= /SKİLL =================*/
 /* TEAM */
 .div-team {
   background-color: #f4f4fd;
@@ -263,7 +264,7 @@ img {
   padding-bottom: 32px;
 }
 
-/* /TEAM */
+/*================= /TEAM =================*/
 /* PORTFOLİO */
 .div-portfolio-list,
 .div-portfolio {
@@ -312,7 +313,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-/* /PORTFOLİO */
+/*================= /PORTFOLİO =================*/
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
@@ -330,4 +331,4 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-/* /FOOTER */
+/*================= /FOOTER =================*/
