@@ -294,6 +294,7 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  box-sizing: border-box;
 }
 /* *, ::after, ::before {
   box-sizing: border-box;
