@@ -107,7 +107,7 @@ img {
   padding-bottom: 24px;
   display: block;
 }
-.nav-link .header-active{
+.nav-link .header-active {
   position: relative;
   color: #404bbf;
 }
@@ -287,7 +287,7 @@ img {
   bottom: -1px;
   left: 0px; */
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   left: 0;
   bottom: -1px;
@@ -326,6 +326,8 @@ img {
   background-color: #fff;
   text-align: left;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .div-team-list-item-title {
   font-weight: 500;
