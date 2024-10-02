@@ -422,7 +422,7 @@ img {
   color: #f4f4fd;
   padding: 40px 32px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(90%);
+  transform: translateY(100%);
 }
 
 .portfolio-overlay:hover {
