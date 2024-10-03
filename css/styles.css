@@ -44,9 +44,11 @@ img {
 /*HEADER */
 .page-header {
   /* padding-top: 15px; */
+  width: 1600px;
+  height: 72px;
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .container {
   max-width: 1158px;
@@ -188,7 +190,17 @@ img {
 }
 /*================= /OFFER =================*/
 /* Offer-Background Styles */
+
 .background-section {
+  /* flex-direction: column;
+  align-items: center; */
+
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -282,13 +294,13 @@ img {
   content: "";
   width: 100%;
   left: 0;
-  bottom: -41px;
+  bottom: -20px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
   box-sizing: border-box;
 }
-.header-active-hover:hover {
+.header-active-color{
   color: #404bbf;
 }
 
