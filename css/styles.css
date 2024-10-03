@@ -43,7 +43,7 @@ img {
 
 /*HEADER */
 .page-header {
-  padding-top: 15px;
+  /* padding-top: 15px; */
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -282,12 +282,16 @@ img {
   content: "";
   width: 100%;
   left: 0;
-  bottom: -35px;
+  bottom: -41px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
   box-sizing: border-box;
 }
+.header-active-hover:hover {
+  color: #404bbf;
+}
+
 /*================= /SKİLL =================*/
 /* TEAM */
 .div-team {
@@ -392,9 +396,14 @@ img {
   position: relative;
   overflow: hidden;
 }
-.div-portfolio-list-item {
-  width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.div-portfolio-list-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  /* width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .portfolio-overlay {
   /* position: absolute;
